@@ -16,3 +16,8 @@ body * {
 .buttonHolder button:hover {
   background-color: #4f5151;
 }
+
+/* Index Form */
+.container form input {
+  border-color: whitesmoke;
+}

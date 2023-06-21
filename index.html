@@ -6,10 +6,36 @@
     <title>time-score | Suphakit P.</title>
 
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="src/css/pages/index.css">
   </head>
   <body>
     <div class="buttonHolder">
       <button id="themeButton" onclick="mode()"></button>
+    </div>
+
+    <div class="container">
+      <div class="containerBox">
+        <h1>
+          CountDown
+        </h1>
+  
+        <h2>
+          Enter your Time to counting down...
+        </h2>
+        <form action="/counting/" method="get">
+          <input type="text" placeholder="min" value="00" name="min" id="min">
+          <p>
+            :
+          </p>
+          <input type="text" placeholder="sec" value="00" name="sec" id="sec">
+
+          <br>
+
+          <button type="submit">
+            Setup Timer
+          </button>
+        </form>
+      </div>
     </div>
 
     <div class="footer">
