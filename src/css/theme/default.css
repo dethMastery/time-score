@@ -3,6 +3,10 @@ body {
   color: whitesmoke;
 }
 
+body * {
+  color: whitesmoke;
+}
+
 /* Navigator Bar */
 .buttonHolder button {
   background-color: #2e2f2f;

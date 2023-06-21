@@ -1,0 +1,22 @@
+.footer {
+  width: 100%;
+  padding: .5rem 0;
+
+  text-align: center;
+
+  position: fixed;
+  bottom: 0;
+}
+
+.footer * {
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+.footer a {
+  text-decoration: underline dashed;
+}
+
+.footer a:hover {
+  opacity: .6;
+  text-decoration: none;
+}

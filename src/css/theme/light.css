@@ -1,6 +1,10 @@
 body.light {
-  background: whitesmoke !important;
-  color: #2e2f2f !important;
+  background: whitesmoke;
+  color: #2e2f2f;
+}
+
+body.light * {
+  color: #2e2f2f;
 }
 
 .light .buttonHolder button {
