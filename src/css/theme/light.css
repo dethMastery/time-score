@@ -1,0 +1,13 @@
+body.light {
+  background: whitesmoke !important;
+  color: #2e2f2f !important;
+}
+
+.light .buttonHolder button {
+  background-color: whitesmoke;
+  border-color: #2e2f2f;
+}
+
+.light .buttonHolder button:hover {
+  background-color: #b8b8b8;
+}

@@ -1,0 +1,14 @@
+body {
+  background: #2e2f2f;
+  color: whitesmoke;
+}
+
+/* Navigator Bar */
+.buttonHolder button {
+  background-color: #2e2f2f;
+  border-color: whitesmoke;
+}
+
+.buttonHolder button:hover {
+  background-color: #4f5151;
+}
