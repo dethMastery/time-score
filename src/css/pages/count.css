@@ -1,0 +1,110 @@
+.container {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#scoring {
+  width: 100%;
+
+  padding-top: 2rem;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#scoring .scoreBox {
+  width: 80%;
+}
+
+#scoring button {
+  border-radius: 1rem;
+  border: 0;
+  padding: .5rem 2rem;
+  margin: 0 1rem;
+}
+
+#scoring button:hover {
+  transform: scale(.95, .95);
+  cursor: pointer;
+}
+
+#scoring button.team1button {
+  background: rgb(255, 72, 72);
+}
+
+#scoring button.team2button {
+  background: rgb(101, 101, 248);
+}
+
+#scoring button.team3button {
+  background: rgb(66, 205, 66);
+}
+
+#scoring button.team4button {
+  background: rgb(252, 102, 212);
+}
+
+#scoring button.team5button {
+  background: rgb(230, 239, 51);
+}
+
+#scoring button.team5button h1 {
+  color: #2e2f2f !important;
+}
+
+#scoring button h1 {
+  margin: 0;
+  padding: 0;
+  color: whitesmoke !important;
+}
+
+#scoring .board {
+  width: 80%;
+
+  border-radius: 1rem;
+  
+  padding: 1rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+#scoring .board * {
+  color: whitesmoke !important;
+}
+
+#scoring .board#boardP1 {
+  background: rgb(255, 72, 72);
+}
+
+#scoring .board#boardP2 {
+  background: rgb(101, 101, 248);
+}
+
+#scoring .board#boardP3 {
+  background: rgb(66, 205, 66);
+}
+
+#scoring .board#boardP4 {
+  background: rgb(252, 102, 212);
+}
+
+#scoring .board#boardP5 {
+  background: rgb(230, 239, 51);
+  color: #2e2f2f;
+}
+
+#scoring .board#boardP5 * {
+  color: #2e2f2f !important;
+}
+
+#scoring .board h1 {
+  margin: 0;
+  font-size: 50px;
+  padding: 2rem 0;
+}

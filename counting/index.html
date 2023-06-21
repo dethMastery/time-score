@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>time-score | Suphakit P.</title>
+
+    <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="../src/css/pages/count.css">
+  </head>
+  <body>
+    <div class="buttonHolder">
+      <button id="themeButton" onclick="mode()"></button>
+    </div>
+
+    <div class="container">
+      <div id="time"></div>
+
+      <div id="scoring">
+        <div id="scoreP1" class="scoreBox">
+          <button id="addP1" class="team1button" onclick="add(0)">
+            <h1>
+              +
+            </h1>
+          </button>
+          <button id="delP1" class="team1button" onclick="del(0)">
+            <h1>
+              -
+            </h1>
+          </button>
+          <div id="boardP1" class="board"></div>
+        </div>
+
+        <div id="scoreP2" class="scoreBox">
+          <button id="addP2" class="team2button" onclick="add(1)">
+            <h1>
+              +
+            </h1>
+          </button>
+          <button id="delP2" class="team2button" onclick="del(1)">
+            <h1>
+              -
+            </h1>
+          </button>
+          <div id="boardP2" class="board"></div>
+        </div>
+
+        <div id="scoreP3" class="scoreBox">
+          <button id="addP3" class="team3button" onclick="add(2)">
+            <h1>
+              +
+            </h1>
+          </button>
+          <button id="delP3" class="team3button" onclick="del(2)">
+            <h1>
+              -
+            </h1>
+          </button>
+          <div id="boardP3" class="board"></div>
+        </div>
+
+        <div id="scoreP4" class="scoreBox">
+          <button id="addP4" class="team4button" onclick="add(3)">
+            <h1>
+              +
+            </h1>
+          </button>
+          <button id="delP4" class="team4button" onclick="del(3)">
+            <h1>
+              -
+            </h1>
+          </button>
+          <div id="boardP4" class="board"></div>
+        </div>
+
+        <div id="scoreP5" class="scoreBox">
+          <button id="addP5" class="team5button" onclick="add(4)">
+            <h1>
+              +
+            </h1>
+          </button>
+          <button id="delP5" class="team5button" onclick="del(4)">
+            <h1>
+              -
+            </h1>
+          </button>
+          <div id="boardP5" class="board"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>
+        &copy; 2023 <a href="https://suphakit.net" target="_blank">Suphakit P.</a> All Right Reserved.
+      </p>
+    </div>
+
+    <div id="log"></div>
+
+    <script src="../src/js/theme.js"></script>
+    <script src="../src/js/time.js"></script>
+    <script src="../src/js/score.js"></script>
+  </body>
+</html>
