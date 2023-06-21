@@ -108,3 +108,24 @@
   font-size: 50px;
   padding: 2rem 0;
 }
+
+.resetContainer {
+  padding-top: 2rem;
+}
+
+.resetContainer button {
+  font-size: 24px;
+
+  color: whitesmoke;
+  background-color: red;
+  
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 0;
+}
+
+.resetContainer button:hover {
+  transform: scale(.9);
+  opacity: .6;
+  cursor: pointer;
+}

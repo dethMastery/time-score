@@ -46,3 +46,17 @@ function del(id) {
 
   localStorage.setItem('score', JSON.stringify(scoreSet))
 }
+
+function resetScore() {
+  let confirmText = 'Are you sure to reset the score?'
+
+  if (confirm(confirmText) == true) {
+    alert('Your Scores have been cleared.')
+    
+    for (let i = 0; i < 5; i++) {
+      teamScore[i].innerHTML = `<h1 class="id${i}">0</h1>`;
+    }
+  
+    localStorage.setItem("score", JSON.stringify(scoreSetup));
+  }
+}
