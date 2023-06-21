@@ -5,9 +5,16 @@
 @import url(src/css/components/footer.css);
 
 /* Theme */
-@import url(src/css/theme/default.css);
 @import url(src/css/theme/light.css);
+@import url(src/css/theme/default.css);
 
 * {
   font-family: 'IBM Plex Sans Thai', sans-serif;
+
+  transition: all .3s;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
