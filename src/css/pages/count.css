@@ -115,13 +115,21 @@
 
 .resetContainer button {
   font-size: 24px;
-
-  color: whitesmoke;
-  background-color: red;
   
   padding: 1rem;
   border-radius: 1rem;
   border: 0;
+  margin: 0 1rem;
+}
+
+.resetContainer button.refresh {
+  color: #2e2f2f;
+  background: rgb(60, 155, 238);
+}
+
+.resetContainer button.reset {
+  color: whitesmoke;
+  background-color: red;
 }
 
 .resetContainer button:hover {
