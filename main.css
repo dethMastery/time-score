@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Thai:100,200,300,regular,500,600,700);
+@import url(https://fonts.googleapis.com/css?family=Itim:regular);
 
 /* Components */
 @import url(src/css/components/nav.css);
@@ -9,8 +10,7 @@
 @import url(src/css/theme/default.css);
 
 * {
-  font-family: 'IBM Plex Sans Thai', sans-serif;
-
+  font-family: 'Itim', cursive;
   transition: all .3s;
 }
 
