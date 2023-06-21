@@ -1,6 +1,8 @@
 let theme = localStorage.getItem("theme") == "light";
 let element = document.body;
 let button = document.querySelector("#themeButton");
+let logElement = document.querySelector("#log");
+
 
 if (theme) {
   element.classList.add("light");
@@ -19,9 +21,4 @@ function mode() {
     localStorage.setItem("theme", "dark");
     button.innerHTML = "☀️";
   }
-
-  const logElement = document.querySelector("#log");
-  const theme = localStorage.getItem("theme");
-
-  logElement.innerHTML = `theme : ${theme}`;
 }
