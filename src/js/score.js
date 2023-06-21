@@ -24,16 +24,25 @@ if (localStorage.getItem("score") == null) {
 
 function add(id) {
   let score = document.querySelector(`.id${id}`).innerHTML
+  let scoreSet = JSON.parse(localStorage.getItem('score'))
 
   document.querySelector(`.id${id}`).innerHTML = parseInt(score) + 1
+
+  scoreSet[id] = parseInt(score) + 1
+  localStorage.setItem('score', JSON.stringify(scoreSet))
 }
 
 function del(id) {
   let score = document.querySelector(`.id${id}`).innerHTML
+  let scoreSet = JSON.parse(localStorage.getItem('score'))
 
   if (score - 1 <= 0) {
     document.querySelector(`.id${id}`).innerHTML = 0
+    scoreSet[id] = 0
   } else {
     document.querySelector(`.id${id}`).innerHTML = parseInt(score) - 1
+    scoreSet[id] = parseInt(score) - 1
   }
+
+  localStorage.setItem('score', JSON.stringify(scoreSet))
 }
